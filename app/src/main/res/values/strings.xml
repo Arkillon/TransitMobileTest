@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TransitMobileTest</string>
+    <string name="title_activity_maps">FeedsMapActivity</string>
+</resources>
