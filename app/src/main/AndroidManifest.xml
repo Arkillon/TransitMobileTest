@@ -2,7 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
+        android:name=".TransitApplication"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
@@ -14,7 +17,7 @@
             android:value="AIzaSyC11a3o5mCJBuIdlGVXAAw1C-j6_MJ2BwU" />
 
         <activity
-            android:name=".FeedsMapActivity"
+            android:name=".feature.feedsmap.view.FeedsMapActivity"
             android:exported="true"
             android:label="@string/title_activity_maps">
             <intent-filter>
