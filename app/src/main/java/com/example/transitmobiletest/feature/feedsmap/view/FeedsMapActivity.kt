@@ -15,7 +15,7 @@ class FeedsMapActivity : ComponentActivity() {
         viewModel = ViewModelProvider(this)[FeedsMapViewModel::class.java]
 
         setContent {
-            FeedsMapScreen(viewModel)
+            FeedsMapScreen()
         }
     }
 }
