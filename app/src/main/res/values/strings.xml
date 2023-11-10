@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">TransitMobileTest</string>
     <string name="title_activity_maps">FeedsMapActivity</string>
+
+    <string name="feed_map_bottom_sheet_stars_label">Feed quality: </string>
+    <string name="feed_map_bottom_sheet_last_update_label">Last update: </string>
 </resources>
