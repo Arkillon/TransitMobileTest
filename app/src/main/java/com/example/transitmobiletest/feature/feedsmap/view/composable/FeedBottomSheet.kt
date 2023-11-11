@@ -38,6 +38,10 @@ fun FeedBottomSheet() {
                 FeedBottomSheetText("${feed.location}, ${feed.subCountryCodes}, ${feed.countryCodes}")
                 FeedBottomSheetText(stringResource(R.string.feed_map_bottom_sheet_stars_label) + " ${feed.stars}")
                 FeedBottomSheetText(stringResource(R.string.feed_map_bottom_sheet_last_update_label) + " ${getFormattedDateTime(feed.uploadedAt)}")
+                FeedBottomSheetText(stringResource(R.string.feed_map_bottom_sheet_last_max_lat_label) + " ${feed.bounds.maxLat}")
+                FeedBottomSheetText(stringResource(R.string.feed_map_bottom_sheet_last_max_lon_label) + " ${feed.bounds.maxLon}")
+                FeedBottomSheetText(stringResource(R.string.feed_map_bottom_sheet_last_min_lat_label) + " ${feed.bounds.minLat}")
+                FeedBottomSheetText(stringResource(R.string.feed_map_bottom_sheet_last_min_lon_label) + " ${feed.bounds.minLon}")
             }
         }
     }

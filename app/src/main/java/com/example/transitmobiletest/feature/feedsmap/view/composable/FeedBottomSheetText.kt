@@ -9,7 +9,7 @@ import androidx.compose.ui.unit.dp
 
 @Composable
 fun FeedBottomSheetText(text: String) {
-    Row(modifier = Modifier.padding(12.dp)) {
+    Row(modifier = Modifier.padding(8.dp)) {
         Text(text)
     }
 }

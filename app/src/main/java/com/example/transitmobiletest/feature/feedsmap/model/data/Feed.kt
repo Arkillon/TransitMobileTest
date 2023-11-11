@@ -7,6 +7,6 @@ class Feed(@SerializedName("feed_id") val id: Int,
            @SerializedName("sub_country_codes") val subCountryCodes: String,
            @SerializedName("country_codes") val countryCodes: String,
            @SerializedName("stars") val stars: Int,
-           @SerializedName("bgtfs_uploaded_at") val uploadedAt: String,
+           @SerializedName("bgtfs_uploaded_at") val uploadedAt: String?,
            @SerializedName("bounds") val bounds: Bounds,
 )

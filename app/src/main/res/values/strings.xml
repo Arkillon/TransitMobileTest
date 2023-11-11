@@ -4,4 +4,8 @@
 
     <string name="feed_map_bottom_sheet_stars_label">Feed quality: </string>
     <string name="feed_map_bottom_sheet_last_update_label">Last update: </string>
+    <string name="feed_map_bottom_sheet_last_max_lat_label">Max lat: </string>
+    <string name="feed_map_bottom_sheet_last_max_lon_label">Max lon: </string>
+    <string name="feed_map_bottom_sheet_last_min_lat_label">Min lat: </string>
+    <string name="feed_map_bottom_sheet_last_min_lon_label">Min lon: </string>
 </resources>

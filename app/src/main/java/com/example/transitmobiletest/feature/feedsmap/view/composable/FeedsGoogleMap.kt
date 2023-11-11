@@ -33,7 +33,7 @@ fun FeedsGoogleMap(
             }
         }
 
-        //TODO optimize pin bitmaps in LruCache to fix feed area lagging
+        //TODO investigate why this is slowing the app
 //        selectedFeedUiState.selectedFeed?.let { selectedFeed ->
 //            FeedArea(selectedFeed)
 //        }

@@ -10,16 +10,16 @@ Questions :
 
 • If you used 3rd party libraries, explain for each one the reason for introducing that
 dependency and how you selected that particular library.
-- Jetpack Compose - Preferred way to build UI and has BottomSheet component included
+- Jetpack Compose : Preferred way to build UI and has BottomSheet component included
 - Google map : Its the most used map library and it support jetpack compose so it was a no brainer for this test app
-- Retrofit - Choosed this networking library as I think that with the GsonConverter to convert JSON to model classes it makes it really easy to work with APIs
-- Hilt - I prefer to add DI at the beginning of a project to decrease coupling between classes
+- Retrofit : Choosed this networking library as I think that with the GsonConverter to convert JSON to model classes it makes it really easy to work with APIs
+- Hilt : I prefer to add DI at the beginning of a project to decrease coupling between classes
 
 • Given 8 more hours, how would you improve your project
-- Improve performance on the map, as there is a lot of feed markers, probably want to cache the custom pin bitmaps, etc
+- Improve performance on the map, as there is a lot of feed markers, probably want to cache the custom pin bitmaps & add clustering
 - Add caching/local DB for the feed list
 - Improve UI/UX & add some animations
 - Center on current userLocation & permission handling
 - add tests
-- Better handle API requests (failures, errors)
+- Better handle API requests (loading & errors)
 * Could go for better architecture such as clean architecture with 3 modules (UI layer, domain, data layer) with Interfaces between layers & use cases
